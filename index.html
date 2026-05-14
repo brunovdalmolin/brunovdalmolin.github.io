@@ -407,7 +407,7 @@ footer{background:var(--surface);padding:24px 40px;display:flex;justify-content:
     var half=0,pos=0;
     function tick(){
       if(!half)half=inner.scrollHeight/2;
-      pos+=0.6;
+      pos+=1.4;
       if(half&&pos>=half)pos-=half;
       inner.style.transform='translateY(-'+pos+'px)';
       requestAnimationFrame(tick);
